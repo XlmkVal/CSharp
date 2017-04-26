@@ -1,0 +1,41 @@
+this usage:
+	indexer:
+		private type this[type name]
+			{
+				get{}
+				set{}
+			}
+		called as: varname[]
+	for similar names in classes:
+		this.car = car;
+	
+	
+abstract - missing or incomplete implementation, can be used for classes,
+methods, properties, indexers, events. Use in class declaration to show 
+it's intended as base class to other classes
+	abstract class name{}
+	abstract methods - no implementation, no {}, error to use static or
+		virtual, can only be in abstract classes, override for implem
+	
+sealed - opposite of abstract, prevents class from being inherited
+
+virual - used for methods, properties, indexers or events. Allows to be 
+overriden in a derived class(any class that inherits it). The overriding
+member is the most derived one.
+
+
+christmas advantures
+
+params
+
+tupels - (int, int), defined as var name = (9,9), can give evry value 
+	name as var name = (s:0,c:0)
+	
+local function - declared within other functions, get access to all var-
+	iables, but can be used only in the scope
+	
+if (!(object o is int i)) return; - pattern in C#7.0, checks if object 
+	is an int, and if yes, assings it to i and returns it 
+	
+	
+reflection 
